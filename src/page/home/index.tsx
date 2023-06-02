@@ -1,11 +1,9 @@
-import Hero from "../../components/hero";
-import Card from "./card";
+import Shop from "../shop";
 
 const Home = () => {
   return (
     <div className="container mx-auto">
-      <Hero />
-      <Card />
+      <Shop />
     </div>
   );
 };
