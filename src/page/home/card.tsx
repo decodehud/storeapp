@@ -20,7 +20,7 @@ const Card = () => {
   }, []);
 
   return (
-    <div className="px-8 bg-white rounded-3xl">
+    <div className="px-8 rounded-3xl">
       {!produts ? (
         <h1 className="flex  items-center justify-center text-center font-Poppins text-slate-800 h-screen font-bold text-2xl">
           Loading...
@@ -37,7 +37,7 @@ const Card = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="h-72 w-full object-fill  rounded-[2em]"
+                    className="h-72 w-full object-cover  rounded-[2em]"
                   />
                 </div>
               </div>
