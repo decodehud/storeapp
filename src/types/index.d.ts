@@ -13,3 +13,11 @@ export interface IProduct {
   image: string;
   price: number;
 }
+
+interface ICartItem {
+  name: string;
+  id: string;
+  price: number;
+  image: string;
+  quantity: number;
+}
