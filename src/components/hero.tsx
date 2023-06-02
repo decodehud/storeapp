@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative md:pb-[8em]">
       <img
         className="absolute min-h-screen object-cover w-full -top-[75px] md:-top-[180px] -z-10"
         src="https://res.cloudinary.com/dolzrq2x7/image/upload/v1685598665/storeapp/young-person-wearing-hoodie-mockup_2_zohlk9.png"
@@ -17,7 +17,7 @@ const Hero = () => {
       />
 
       <div className="min-h-screen  pl-2 flex flex-col justify-center items-start ">
-        <p className="uppercase  text-[40px] font-Poppins font-bold text-white md:text-[#151a24]">
+        <p className="uppercase flex text-[3.5em] font-Poppins font-bold text-white md:text-[#151a24]">
           Hoddie Heaven
         </p>
         <button
