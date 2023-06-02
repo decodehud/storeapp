@@ -61,8 +61,9 @@ const Shop = () => {
               </div>
 
               <div className="py-2">
-                <div className="py-2 bg-[#151a24] text-white text-center rounded-xl uppercase">
+                <div className="py-2 bg-[#151a24] text-white text-center rounded-xl ">
                   <button
+                    className="font-Poppins uppercase"
                     onClick={() => {
                       navigate(`/shop/${product._id}`);
                     }}
